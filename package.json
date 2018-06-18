@@ -8,6 +8,7 @@
     "lint": "gulp default",
     "publish_npm": "npm run test patch && npm publish",
     "build_for_npm": "gulp; babel -d lib/ src/",
+    "postinstall": "gulp; babel -d lib/ src/",
     "build_for_browser": "WEBPACK_ENV=build webpack"
   },
   "author": "Cosmo Cochrane",
