@@ -8,4 +8,4 @@
  */
 'use strict';
 
-module.exports = require('./lib/GphApiClient');
+module.exports = require('./src/GphApiClient');
