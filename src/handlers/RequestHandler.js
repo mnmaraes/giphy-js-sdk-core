@@ -9,7 +9,7 @@
 
 var ResponseHandler = require('./ResponseHandler');
 require('es6-promise').polyfill();
-require('isomorphic-fetch');
+// require('isomorphic-fetch');
 
 function RequestHandler(vals, endpoint, cb) {
 
