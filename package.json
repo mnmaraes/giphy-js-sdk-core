@@ -8,14 +8,12 @@
     "lint": "gulp default",
     "publish_npm": "npm run test patch && npm publish",
     "build_for_npm": "gulp; babel -d lib/ src/",
-    "postinstall": "gulp; babel -d lib/ src/",
     "build_for_browser": "WEBPACK_ENV=build webpack"
   },
   "author": "Cosmo Cochrane",
   "license": "ISC",
   "dependencies": {
     "es6-promise": "^4.1.0",
-    "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.17.4",
     "promise": "^7.1.1"
   },
